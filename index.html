@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sweet Spot Bakery</title>
+    <link rel="stylesheet" href="style.css"> <!-- Make sure this matches your CSS file name if local -->
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">The Sweet Spot Bakery</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Welcome to The Sweet Spot!</h1>
+                <p>Freshly baked goodness, every day.</p>
+                <a href="#menu" class="cta-button">View Our Menu</a>
+            </div>
+        </section>
+
+        <section id="menu" class="content-section">
+            <h2>Our Delicious Menu</h2>
+            <div class="menu-grid">
+                <!-- MENU ITEM 1: CUPCAKES (NEW URL) -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1550617931-e17a7b70dce2?auto=format&fit=crop&w=350&q=80" alt="Assorted Cupcakes">
+                    <h3>Assorted Cupcakes</h3>
+                    <p>Vanilla, Chocolate, Red Velvet, and seasonal specials.</p>
+                </div>
+                <!-- MENU ITEM 2: ARTISAN BREAD (NEW URL) -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1534620808146-d33bb39128b2?auto=format&fit=crop&w=350&q=80" alt="Artisan Bread">
+                    <h3>Artisan Bread</h3>
+                    <p>Sourdough, Baguettes, Rye, and Whole Wheat.</p>
+                </div>
+                <!-- MENU ITEM 3: CUSTOM CAKES (KEEPING THIS URL AS IT WAS WORKING IN YOUR SCREENSHOT) -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?auto=format&fit=crop&w=350&q=80" alt="Custom Celebration Cake">
+                    <h3>Custom Cakes</h3>
+                    <p>For birthdays, weddings, and any special occasion.</p>
+                </div>
+                <!-- MENU ITEM 4: COOKIES (NEW URL) -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=350&q=80" alt="Gourmet Cookies">
+                    <h3>Gourmet Cookies</h3>
+                    <p>Chocolate Chip, Oatmeal Raisin, Sugar Cookies.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section alt-bg">
+            <h2>About The Sweet Spot Bakery</h2>
+            <p>Founded in 2023, The Sweet Spot Bakery is a dream come true for us. We believe in using the freshest ingredients to create delightful treats that bring joy to our community. From our family to yours, enjoy a little sweetness!</p>
+            <p>We are passionate about baking and committed to quality. Come visit us and taste the difference!</p>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2>Get In Touch</h2>
+            <p>Have a question or want to place a custom order? Contact us!</p>
+            <div class="contact-info">
+                <p><strong>Phone:</strong> (123) 456-7890</p>
+                <p><strong>Email:</strong> orders@thesweetspot.example.com</p>
+                <p><strong>Address:</strong> 123 Main Street, Anytown, USA</p>
+                <p><strong>Hours:</strong> Mon-Sat: 8 AM - 6 PM, Sun: Closed</p>
+            </div>
+            <form id="contactForm" class="contact-form">
+                <h3>Send us a message:</h3>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 The Sweet Spot Bakery. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Make sure this matches your JS file name if local -->
+</body>
+</html>
